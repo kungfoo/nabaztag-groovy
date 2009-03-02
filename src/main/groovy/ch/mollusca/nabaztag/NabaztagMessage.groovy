@@ -24,12 +24,16 @@ public class NabaztagMessage{
 	'wake'				:14
 	]
 	
-	public NabaztagMessage(mac, token){
+	NabaztagMessage(mac, token){
 		this.mac = mac
 		this.token = token
 	}
 	
-	public void setAction(action){
+	void send(){
+		
+	}
+	
+	void setAction(action){
 		this.action = actions[action]
 	}
 }
