@@ -1,0 +1,12 @@
+usePlugin('groovy')
+usePlugin('java')
+version = '0.1'
+
+dependencies {
+	addMavenRepo()
+	groovy("org.codehaus.groovy:groovy-all:1.5.7")
+	compile('junit:junit:4.4')
+}
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
