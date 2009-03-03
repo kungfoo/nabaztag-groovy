@@ -1,0 +1,4 @@
+#Mon Mar 02 17:17:51 CET 2009
+eclipse.preferences.version=1
+groovy.compiler.output.path=build/classes
+support.groovy=true
