@@ -1,3 +1,7 @@
+<<<<<<< HEAD:.settings/org.eclipse.jdt.core.prefs
 #Mon Mar 02 17:13:58 CET 2009
+=======
+#Mon Mar 02 21:55:44 CET 2009
+>>>>>>> 5b509345e44ab3d36ec76b624e2a77a0d620c9b0:.settings/org.eclipse.jdt.core.prefs
 eclipse.preferences.version=1
 org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch,*.groovy

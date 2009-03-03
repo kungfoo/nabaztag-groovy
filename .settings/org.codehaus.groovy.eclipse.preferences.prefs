@@ -1,4 +1,10 @@
+<<<<<<< HEAD:.settings/org.codehaus.groovy.eclipse.preferences.prefs
 #Mon Mar 02 17:17:51 CET 2009
 eclipse.preferences.version=1
 groovy.compiler.output.path=build/classes
+=======
+#Mon Mar 02 21:55:43 CET 2009
+eclipse.preferences.version=1
+groovy.compiler.output.path=bin-groovy
+>>>>>>> 5b509345e44ab3d36ec76b624e2a77a0d620c9b0:.settings/org.codehaus.groovy.eclipse.preferences.prefs
 support.groovy=true
