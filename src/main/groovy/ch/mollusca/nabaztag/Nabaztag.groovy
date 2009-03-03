@@ -16,6 +16,10 @@ public class Nabaztag{
 	}
 	
 	def void say(text){
+		message.tts = text
+	}
+	
+	def chor(closure){
 		
 	}
 }
