@@ -19,7 +19,7 @@ public class Nabaztag{
 		message.tts = text
 	}
 	
-	def chor(closure){
+	def choreography(closure){
 		
 	}
 }
