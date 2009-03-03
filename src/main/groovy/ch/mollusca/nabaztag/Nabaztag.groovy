@@ -17,6 +17,8 @@ public class Nabaztag{
 	}
 	
 	def choreography(closure){
-		
+		closure.delegate = new NabaztagChoreography()
+		closure()
+		return null
 	}
 }

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/main/groovy"/>
-<<<<<<< HEAD:.classpath
+	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/test/groovy"/>
-=======
->>>>>>> 5b509345e44ab3d36ec76b624e2a77a0d620c9b0:.classpath
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

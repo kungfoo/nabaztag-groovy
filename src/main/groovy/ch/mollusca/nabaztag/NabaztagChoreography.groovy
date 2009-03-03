@@ -21,5 +21,19 @@ public class NabaztagChoreography{
 	def leds = [bottom : 0, lefr : 1, middle : 2, right : 3, top : 4]
 	def ear_directions = [forward : 0, backward : 1]
 	
+	def foo(){
+		println "foo() called"
+	}
 	
+	def ears(which, positions){
+		println "moving ears " + which + " to " + positions
+	}
+	
+	def led(which, color, length){
+		println "turing "+ which + " led to " + color + " for " + length
+	}
+	
+	def speed(speed){
+		
+	}
 }
