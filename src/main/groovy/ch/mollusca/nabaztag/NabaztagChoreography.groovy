@@ -1,7 +1,7 @@
 package ch.mollusca.nabaztag
 
 public class NabaztagChoreography{
-	def led_colors = [
+	def static LED_COLORS = [
 	red          : [255,   0,   0],
 	orange       : [255, 127,   0],
 	yellow       : [255, 255,   0],

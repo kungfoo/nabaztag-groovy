@@ -6,6 +6,8 @@ public class NabaztagMessage{
 	// will trigger something on the rabbit.
 	def posright, posleft, idapp, tts, chor, chortitle, ears, nabcast, nabcasttitle, ttlive, voice, speed, pitch, action
 	
+	def static API_URI = 'http://api.nabaztag.com/vl/FR/api.jsp?'
+	
 	// api actions that yield some result
 	def actions = [
 	preview_tts 		: 1,
@@ -29,8 +31,8 @@ public class NabaztagMessage{
 		this.token = token
 	}
 	
-	void send(){
-		
+	def send(){
+		return new NabaztagResponse()
 	}
 	
 	void setAction(action){
