@@ -30,10 +30,10 @@ public class NabaztagChoreography{
 	}
 	
 	def led(which, color, length){
-		println "turing "+ which + " led to " + color + " for " + length
+		println "turning "+ which + " led to " + color + " for " + length + " beats"
 	}
 	
 	def speed(speed){
-		
+		println "setting speed to " + speed + "Hz"
 	}
 }
